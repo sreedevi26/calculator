@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<script>
+			function largesstnum()
+			{
+				var num1, num2, num3;
+				num1 = (document.getElementById("fnum").value);
+				num2 = (document.getElementById("snum").value);
+// num1=fnum.value;
+// num2=snum.value
+				if(num1>num2)
+				{
+					alert(num1+" is Grater");
+				}
+				else if(num2>num1)
+				{
+					alert(num2+" is Grater");
+				}
+				// else if(num2>num1 && num2>num1)
+				// {
+				// 	window.alert(num2+"is Grater ");
+				// }
+			}
+		</script>
+	</head>
+	
+		<h1 class="text-center">Check Grater Number </h1>
+		<br>
+		 <input type="text" id="fnum" placeholder="Number1"></input><br><br>
+		<input type="text" id="snum" placeholder="Number2"></input><br>
+<button onclick="largesstnum()">submit</button>
+	</body>
+</html>
